@@ -12,19 +12,19 @@ output
  - busid 1-1.3 (0079:0006)
    DragonRise Inc. : PC TWIN SHOCK Gamepad (0079:0006)
 ```
-
+### commands
     sudo usbip bind -b 1-1.3
 output
 ```
 usbip: info: bind device on busid 1-1.3: complete
 ```
-
+### commands
     sudo usbip unbind -b 1-1.3
 output
 ```
 usbip: info: unbind device on busid 1-1.3: complete
 ```
-
+### commands
     sudo usbipd
 output
 ```
