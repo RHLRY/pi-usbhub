@@ -52,8 +52,8 @@ Restart System
 
 powershell commands -> Run PowerShell or CMD as an Administrator
 
-    - `PS> cd [to extract location]`
-    - `PS> usbip.exe install`
+    - PS> cd [to extract location]
+    - PS> usbip.exe install
     - .\usbip.exe list -r [ip address of raspberry pi] PS> .\usbip.exe list -r 192.168.1.18
 
 output
@@ -73,6 +73,16 @@ output
 ```
 succesfully attached to port 0
 ```
+powershell commands -> Run PowerShell or CMD as an Administrator -> to get port number
+
+    .\usbip.exe port
+    .\usbip.exe detach -p 0
+    
+output
+```
+port 0 is succesfully detached
+```
+        
 
 
 
