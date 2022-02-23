@@ -2,8 +2,9 @@
 ## Access usb remotely using WiFi
 
 
-### Server Side (Linux Distro-> raspberry pi)
-### commands
+Server Side (Linux Distro-> raspberry pi)
+
+commands
     sudo apt update
     sudo apt install usbip
     sudo modprobe vhci-hcd
@@ -14,19 +15,19 @@ output
  - busid 1-1.3 (0079:0006)
    DragonRise Inc. : PC TWIN SHOCK Gamepad (0079:0006)
 ```
-### commands
+commands
     sudo usbip bind -b 1-1.3
 output
 ```
 usbip: info: bind device on busid 1-1.3: complete
 ```
-### commands
+commands
     sudo usbip unbind -b 1-1.3
 output
 ```
 usbip: info: unbind device on busid 1-1.3: complete
 ```
-### commands
+commands
     sudo usbipd
 output
 ```
@@ -35,9 +36,9 @@ usbipd: info: listening on 0.0.0.0:3240
 usbipd: info: listening on :::3240
 ```
 
-### Client Side (Windows x64)
+Client Side (Windows x64)
 
-### Instuctions
+Instuctions
 
   - find all files in output folder after build or on [release](https://github.com/cezanne/usbip-win/releases) page. I've also shared usbip-win 0.3.5 on this repo.
   - Unzip it
