@@ -2,7 +2,7 @@
 ## Access usb remotely using WiFi
 
 
-## Server Side (Linux Distro-> raspberry pi)
+### Server Side (Linux Distro-> raspberry pi)
 ### commands
     sudo apt update
     sudo apt install usbip
@@ -35,7 +35,7 @@ usbipd: info: listening on 0.0.0.0:3240
 usbipd: info: listening on :::3240
 ```
 
-## Client Side (Windows x64)
+### Client Side (Windows x64)
 
 ### Instuctions
 
