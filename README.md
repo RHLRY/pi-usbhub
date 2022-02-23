@@ -1,10 +1,5 @@
 # usbipHUB
-fvwefgwef
-
-
 ## Access usb remotely using WiFi
-
-
 
 
 ### Server Side (Linux Distro-> raspberry pi)
@@ -93,15 +88,4 @@ port 0 is succesfully detached
 
 
 source credit from [this page](https://github.com/cezanne/usbip-win/blob/master/README.md) 
-
-
-
-
-
-
-
-
-
-
-
 
